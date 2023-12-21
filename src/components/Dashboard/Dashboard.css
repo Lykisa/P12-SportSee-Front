@@ -1,0 +1,33 @@
+.dashboard {
+    width: calc(100% - 117px);
+}
+
+.welcome {
+    color: black;
+    padding-left: 50px;
+}
+
+.userInfos {
+    color: #e60000;
+}
+
+.statistiques {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+}
+
+.graphiques {
+    padding-left: 15px;
+}
+
+.sous_graphiques {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+
+/* .objectives {
+    width: 320px;
+} */

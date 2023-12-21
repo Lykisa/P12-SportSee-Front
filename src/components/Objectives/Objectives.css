@@ -1,0 +1,15 @@
+.objectives_graph {
+    background-color: #e60000;
+    border-radius: 5px;
+    position: relative;
+    width: 200px;
+}
+
+.objectives_graph_span {
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    top: 5%;
+    left: 5%;
+    font-size: 10px;
+}

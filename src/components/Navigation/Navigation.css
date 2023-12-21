@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    width: 117px;
+    height: 780px;
+}
+
+.iconNavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.iconNavBar img {
+    width: 64px;
+    height: 64px;
+    padding-bottom: 20px;
+}
+
+.copyrights {
+    color: white;
+    text-wrap: nowrap;
+    rotate: 270deg;
+    padding-right: 180px;
+    font-size: 10px;
+}

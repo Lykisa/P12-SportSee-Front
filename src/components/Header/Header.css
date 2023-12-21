@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 178px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding-right: 40px;
+}

@@ -32,3 +32,9 @@
 .redDot::marker {
     color: #e60000;
 }
+
+/* @media screen and (min-width:1024px){
+    .weight_graph {
+        max-width: 100%;
+    }
+} */

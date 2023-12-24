@@ -27,7 +27,7 @@ function KPIGraph({data}) {
         <div className='kpi_graph'>
             <span className='kpi_graph_span'>Score</span>
             <PieChart width={200} height={200}>
-                <Pie data={dataKPI} dataKey="value" nameKey="name" cx="50%" cy="55%" innerRadius={65} outerRadius={80} fill="#e60000" startAngle={90} />
+                <Pie data={dataKPI} dataKey="value" nameKey="name" cx="50%" cy="55%" innerRadius={65} outerRadius={80} fill="#e60000" />
             </PieChart>
             <div className='kpi_graph_score'>
               <p className='kpi_graph_score_number'>{dataKPI[0].value}%<br/></p>

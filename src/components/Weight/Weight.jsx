@@ -1,7 +1,7 @@
 import './Weight.css'
 import '../../data/data'
 import CustomTooltip from '../CustomToolTip/CustomToolTip'
-import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from 'recharts'
+import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar, ResponsiveContainer } from 'recharts'
 import PropTypes from 'prop-types'
 
 
@@ -30,7 +30,8 @@ function Weight({data}) {
                     </li>
                 </ul>
             </div>
-                <BarChart width={600} height={200} data={data.sessions}>
+            <ResponsiveContainer width="100%" height={200}>
+                <BarChart /* width={600} height={200} */ data={data.sessions}>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} opacity={0.5} />
                     <XAxis dataKey="day" tickLine={false} axisLine={false} fontSize={10} />
                     <YAxis  orientation="left" yAxisId='left' stroke='transparent' />
@@ -39,6 +40,8 @@ function Weight({data}) {
                     <Bar dataKey="kilogram" className='bar_infos' name='Poids (kg)' radius={[10, 10, 0, 0]} fill="black" barSize={7} yAxisId='right' />
                     <Bar dataKey="calories" className='bar_infos' name='Calories brûlées (kCal)' radius={[10, 10, 0, 0]} fill="#e60000" barSize={7} yAxisId='left' />
                 </BarChart>
+            </ResponsiveContainer>
+                
         </div>
     )
 }

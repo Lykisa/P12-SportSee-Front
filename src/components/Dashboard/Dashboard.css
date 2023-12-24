@@ -28,6 +28,20 @@
 }
 
 
-/* .objectives {
-    width: 320px;
-} */
+@media screen and (min-width:1025px){
+    .welcome {
+        padding-left: 5%;
+    }
+    .statistiques {
+        max-width: 100%;
+    }
+    .graphiques {
+        max-width: 100%;
+        width: 70%;
+    }
+    .sous_graphiques {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
